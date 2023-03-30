@@ -21,7 +21,7 @@ const CommunitySchema = new mongoose.Schema({
       ref: 'User',
       required: true,
     },
-    role: {
+    roles: {
       type: String,
       ref: 'Role',
       required: true,
